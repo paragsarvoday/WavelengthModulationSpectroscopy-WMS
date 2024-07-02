@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed May 15 22:45:50 2024
+# Process ID: 20252
+# Current directory: C:/Different/SRIP_2024/Photonics lab/OneDrive_2024-05-15/Lock-in amplifier/FINAL_XADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2512 C:\Different\SRIP_2024\Photonics lab\OneDrive_2024-05-15\Lock-in amplifier\FINAL_XADC\FINAL_XADC.xpr
+# Log file: C:/Different/SRIP_2024/Photonics lab/OneDrive_2024-05-15/Lock-in amplifier/FINAL_XADC/vivado.log
+# Journal file: C:/Different/SRIP_2024/Photonics lab/OneDrive_2024-05-15/Lock-in amplifier/FINAL_XADC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Different/SRIP_2024/Photonics lab/OneDrive_2024-05-15/Lock-in amplifier/FINAL_XADC/FINAL_XADC.xpr}

@@ -1,0 +1,113 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Jul  1 23:28:26 2024
+| Host         : LAPTOP-OPB3COO2 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_xadc_control_sets_placed.rpt
+| Design       : top_xadc
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    35 |
+|    Minimum number of control sets                        |    35 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    59 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    35 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     4 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    27 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1291 |          363 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             709 |          197 |
+| Yes          | No                    | Yes                    |               3 |            1 |
+| Yes          | Yes                   | No                     |              50 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                                                              Enable Signal                                                              |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/base_en_cntrl                                                                               | fir1/U0/i_synth/g_single_rate.i_single_rate/clear |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/base_en_cntrl                                                                               | fir2/U0/i_synth/g_single_rate.i_single_rate/clear |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | byte_if/state[2]_i_1_n_0                                                                                                                | rst_IBUF                                          |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG | byte_if/data[7]_i_1_n_0                                                                                                                 |                                                   |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG | sinusoidal_phase1[11]_i_2_n_0                                                                                                           | sinusoidal_phase1[11]_i_1_n_0                     |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | sinusoidal_phase1[11]_i_2_n_0                                                                                                           | sinusoidal_phase[11]_i_1_n_0                      |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | sinusoidal_phase1[11]_i_2_n_0                                                                                                           | coswave_phase1[11]_i_1_n_0                        |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | sinusoidal_phase1[11]_i_2_n_0                                                                                                           | coswave_phase[11]_i_1_n_0                         |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | sinusoidal_phase1[11]_i_2_n_0                                                                                                           |                                                   |               12 |             18 |         1.50 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/base_en_cntrl                                                                               |                                                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/base_en_cntrl                                                                               |                                                   |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.i_latch_op/gen_dly.gen_shiftreg.gen_rtl_delay.delay_bus_reg[14]    |                                                   |               14 |             23 |         1.64 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.i_latch_op/gen_dly.gen_shiftreg.gen_rtl_delay.delay_bus_reg[14]    |                                                   |               13 |             23 |         1.77 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[5].cntrl_reg_n_0_[5][8]                                    |                                                   |                8 |             24 |         3.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/rfd_int                                                                                     |                                                   |                3 |             24 |         8.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[5].cntrl_reg_n_0_[5][8]                                    |                                                   |                8 |             24 |         3.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_s_data_chan_fifo.i_s_data_chan_fifo/wr_enable                                             |                                                   |                3 |             24 |         8.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/rfd_int                                                                                     |                                                   |                3 |             24 |         8.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_s_data_chan_fifo.i_s_data_chan_fifo/wr_enable                                             |                                                   |                3 |             24 |         8.00 |
+|  clk_IBUF_BUFG | sqr/U0/i_synth/i_synth/gen_sqrt.square_root/gen_rdy_int/rdy_int                                                                         |                                                   |                9 |             25 |         2.78 |
+|  clk_IBUF_BUFG | sqr/U0/i_synth/i_nd_to_rdy/m_axis_dout_tvalid                                                                                           |                                                   |               19 |             40 |         2.11 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl_signals[6].i_delay/g_semi_parallel_and_smac.cntrl[0]_11[0] |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[2].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[4].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[3].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/m_axis_data_tvalid                                                                          |                                                   |               13 |             48 |         3.69 |
+|  clk_IBUF_BUFG | XADC/drdy_out                                                                                                                           |                                                   |               14 |             48 |         3.43 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[2].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[3].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[4].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir2/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[5].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl[5].cntrl_src[6]                                            |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/g_semi_parallel_and_smac.g_cntrl_signals[6].i_delay/g_semi_parallel_and_smac.cntrl[0]_11[0] |                                                   |                4 |             48 |        12.00 |
+|  clk_IBUF_BUFG | fir1/U0/i_synth/g_single_rate.i_single_rate/m_axis_data_tvalid                                                                          |                                                   |               25 |             96 |         3.84 |
+|  clk_IBUF_BUFG |                                                                                                                                         |                                                   |              363 |           1360 |         3.75 |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------+------------------+----------------+--------------+
+
+

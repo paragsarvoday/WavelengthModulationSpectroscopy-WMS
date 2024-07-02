@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xadc_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.srcs/sources_1/new/top_xadc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_xadc
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.srcs/sources_1/new/top_xadc.v:186]
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'out' is not allowed [C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.srcs/sources_1/new/top_xadc.v:322]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_2/sim/mult_gen_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/cordic_1/sim/cordic_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cordic_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_1/sim/mult_gen_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fir_compiler_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_0'

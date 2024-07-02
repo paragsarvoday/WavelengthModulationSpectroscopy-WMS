@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue May 21 15:22:33 2024
+# Process ID: 18896
+# Current directory: C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16344 C:\Different\SRIP_2024\Photonics lab\Lock-in amplifier\FINAL_XADC\FINAL_XADC.xpr
+# Log file: C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/vivado.log
+# Journal file: C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC\vivado.jou
+# Running On: LAPTOP-OPB3COO2, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16864 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.xpr}
+update_compile_order -fileset sources_1
+open_run impl_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1

@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd,1715763380,vhdl,,,,c_addsub_0,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/cordic_1/sim/cordic_1.vhd,1715763384,vhdl,,,,cordic_1,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/div_gen_0/sim/div_gen_0.vhd,1715763385,vhdl,,,,div_gen_0,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd,1715763387,vhdl,,,,fir_compiler_0,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1715763388,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_1/sim/mult_gen_1.vhd,1715763389,vhdl,,,,mult_gen_1,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/mult_gen_2/sim/mult_gen_2.vhd,1715763390,vhdl,,,,mult_gen_2,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.gen/sources_1/ip/xadc_wiz_0/xadc_wiz_0.v,1715763393,verilog,,C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.srcs/sources_1/new/top_xadc.v,,xadc_wiz_0,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Different/SRIP_2024/Photonics lab/Lock-in amplifier/FINAL_XADC/FINAL_XADC.srcs/sources_1/new/top_xadc.v,1717703684,verilog,,,,top_xadc,,,,,,,,

@@ -1,0 +1,186 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Mon Jul  1 23:29:22 2024
+| Host         : LAPTOP-OPB3COO2 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_xadc_methodology_drc_routed.rpt -pb top_xadc_methodology_drc_routed.pb -rpx top_xadc_methodology_drc_routed.rpx
+| Design       : top_xadc
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 30
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 24         |
+| TIMING-18 | Warning  | Missing input or output delay | 6          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.174 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][40]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.190 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][42]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.264 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][43]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.285 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][41]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.287 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][44]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.303 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][46]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.377 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][47]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.398 ns between fir2/U0/i_synth/g_single_rate.i_single_rate/g_m_data_chan_no_fifo.m_axis_data_tdata_int_reg[13]/C (clocked by sys_clk_pin) and m4/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.stage_4_add.stage_4_pipeline.s4_add_out_reg[0][45]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -3.211 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -3.216 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -3.353 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -3.359 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -3.405 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -3.434 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -3.472 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -3.479 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and secout_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -3.519 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -3.694 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -3.842 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -4.613 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -5.025 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -5.044 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -5.207 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -5.341 ns between m5/U0/i_mult/gLUT.gLUT_speed.iLUT/NxM_mult.pp_gen_pipeline.pp_gen_loop[0].b_is_even.pp_out_reg_reg[0][13]/C (clocked by sys_clk_pin) and out_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on SCLK relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on SS relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on freqsel relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on rst relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on MISO relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on led_busy relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+
